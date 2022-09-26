@@ -72,42 +72,69 @@
     <!-- * loader -->
 
     <style media="screen">
-        .dropdown-menu {
-            position: absolute;
-            z-index: 1000;
+        .radius15 {
+            border-radius: 15px;
+        }
+
+        .filterDiv {
             display: none;
-            min-width: 10rem;
-            margin: 0;
-            font-size: 1rem;
-            text-align: left;
-            list-style: none;
-            background-color: #f9bb22;
-            background-clip: padding-box;
-            border-radius: 0 0 0.50rem 0.50rem;
-            border: 0px;
-            inset: -3px auto auto 0px !important;
+            position: relative;
         }
 
-        .dropdown-item {
+        .show {
             display: block;
-            width: 100%;
-            padding: .25rem 1rem;
-            clear: both;
-            font-weight: 400;
-            color: #ffffff;
-            text-align: inherit;
-            text-decoration: none;
-            white-space: nowrap;
-            background-color: transparent;
-            border: 0;
-            padding: 10px 132px 10px 68px;
         }
 
-        body.dark-mode .image-listview>li a.item {
-            background-color: #f9bb22 !important;
+        .container {
+            margin-top: 20px;
+            overflow: hidden;
         }
+
+        .wallet-card-section:before {
+            background: #454545;
+        }
+
+        body.dark-mode .appHeader {
+            background: #454545;
+            border-bottom-color: #454545;
+        }
+
+        body.dark-mode {
+            background: #111;
+        }
+
+        .filterDiv img {
+            background: #1d1d1d;
+        }
+
+        .hoticon {
+            position: absolute;
+            background: transparent !important;
+            width: 45px;
+            top: 5px;
+            left: 5px;
+        }
+        h1 {
+  color: white;
     </style>
    
+
+
+<div class="card-alig card">
+   <div class="wallet-card">
+    <!-- Balance -->
+    <div class="balance">
+        <div class="left">
+            <span  class="title trn" data-trn-key="မြန်မာနိုင်ငံမှနာမည်ကြီးလူကြိုက်များသောဂိမ်းများကို 3000 Ks မှစပြီးငွေသွင်းငွေထုတ်ယုံကြည်စိတ်ချစွာဆော့ကစားနိုင်ပါပြီး။">မြန်မာနိုင်ငံမှနာမည်ကြီးလူကြိုက်များသောဂိမ်းများကို 3000 Ks မှစပြီးငွေသွင်းငွေထုတ်ယုံကြည်စိတ်ချစွာဆော့ကစားနိုင်ပါပြီး။</span>
+            <h1 id="wallet">09 699 623 412</h1>
+        </div>
+   
+    </div>
+    <!-- * Balance -->
+    </div>
+</div>
+
+   <!--CardView Image -->
    <div class="container">
 
     <div class="card">
