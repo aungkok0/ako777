@@ -22,24 +22,49 @@ body{
 .card{
   position: relative;
   background: rgb(27, 27, 27);
-  max-width: 250px;
-  width: 250px;
+  max-width: 150px;
+  width: 150px;
   margin: 20px;
   border-radius: 5px;
   box-shadow: 0 5px 25px rgb(1 1 1 / 10%);
 }
 
 .card-image{
-  max-height: 250px;
+  max-height: 150px;
   overflow: hidden;
 }
-
+body.dark-mode .wallet-card .balance .title {
+  color: #fff;
+}
 .card-image img{
   max-width: 100%;
   height: auto;
   visibility: hidden;
 }
+.card-alig card{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.wallet-card {
+  background: #2c2c2c;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.09);
+  border-radius: 10px;
+  padding: 20px 24px;
+  position: relative;
+  width: 550px;
+  z-index: 1;
+}
 
+.wallet-card .balance {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  height: 100px;
+}
 
 
 .loading{
