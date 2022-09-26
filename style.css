@@ -22,15 +22,15 @@ body{
 .card{
   position: relative;
   background: rgb(27, 27, 27);
-  max-width: 200px;
-  width: 200px;
+  max-width: 300px;
+  width: 300px;
   margin: 20px;
   border-radius: 5px;
   box-shadow: 0 5px 25px rgb(1 1 1 / 10%);
 }
 
 .card-image{
-  max-height: 200px;
+  max-height: 300px;
   overflow: hidden;
 }
 
