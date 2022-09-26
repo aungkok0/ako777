@@ -14,9 +14,8 @@ body{
 .container{
   min-height: 100vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+
+
 }
 
 .card{
@@ -24,6 +23,7 @@ body{
   background: rgb(27, 27, 27);
   max-width: 150px;
   width: 150px;
+  height: 150px;
   margin: 20px;
   border-radius: 5px;
   box-shadow: 0 5px 25px rgb(1 1 1 / 10%);
