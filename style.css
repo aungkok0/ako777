@@ -21,9 +21,9 @@ body{
 .card{
   position: relative;
   background: rgb(27, 27, 27);
-  max-width: 150px;
-  width: 150px;
-  height: 150px;
+  max-width: 112px;
+  width: 112px;
+  height: 112px;
   margin: 20px;
   border-radius: 5px;
   box-shadow: 0 5px 25px rgb(1 1 1 / 10%);
