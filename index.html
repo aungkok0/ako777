@@ -112,27 +112,23 @@
 
     <div class="card">
       <div class="card-image loading">
-        <img src="1.png" alt="">
-          </div>
-      <div class="card-info">
-        </div>
-
-
-    </div>
+        <img src="1.png" alt=""></div>
+         </div>
 
     <div class="card">
-      <div class="card-image loading"><img src="2.png" alt=""></div>
-      <div class="card-info">
-</div>
-    </div>
+      <div class="card-image loading">
+        <img src="2.png" alt="">
+          </div>
+            </div>
+
     
     <div class="card">
-      <div class="card-image loading"><img src="3.png" alt=""></div>
-      <div class="card-info">    
-    </div>
+      <div class="card-image loading">
+        <img src="3.png" alt="">
+          </div>
+            </div>
 
-
-  </div>
+</div>
 
 
   <script type="text/javascript">
@@ -150,35 +146,16 @@
       cardImages.forEach((cardImage) => {
         cardImage.classList.remove("loading");
       });
-      cardTitles.forEach((cardTitle) => {
-        cardTitle.classList.remove("loading");
-      });
-      cardDescriptions.forEach((cardDescription) => {
-        cardDescription.classList.remove("loading");
-      });
-      cardMediaIcons.forEach((cardMediaIcon) => {
-        cardMediaIcon.classList.remove("loading");
-      });
-
       //Show the hidden html elements
       cardImgs.forEach((cardImg) => {
         cardImg.style.visibility = "visible";
-      });
-      cardTitleSpans.forEach((cardTitleSpan) => {
-        cardTitleSpan.style.visibility = "visible";
-      });
-      cardDescSpans.forEach((cardDescSpan) => {
-        cardDescSpan.style.visibility = "visible";
-      });
-      mediaIcons.forEach((mediaIcon) => {
-        mediaIcon.style.visibility = "visible";
       });
     }
 
     //Execute renderCard on setTimeout
     setTimeout(() => {
       renderCard();
-    }, 4000);
+    }, 2000);
 
     //Execute renderCard after the page loaded
     //window.addEventListener("load", () => {
